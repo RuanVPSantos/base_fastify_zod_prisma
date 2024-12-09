@@ -1,0 +1,33 @@
+{
+    "name": "fastify-zod-prisma-mysql-base",
+    "version": "1.0.0",
+    "main": "src/index.ts",
+    "scripts": {
+        "dev": "nodemon --exec ts-node --transpileOnly ./src/index.ts",
+        "build": "tsc",
+        "start": "node dist/index.js"
+    },
+    "dependencies": {
+        "@prisma/client": "*",
+        "bcrypt": "*",
+        "fastify": "*",
+        "mysql2": "*",
+        "prisma": "*",
+        "zod": "*"
+    },
+    "devDependencies": {
+        "ts-node": "*",
+        "nodemon": "*",
+        "ts-node-dev": "*",
+        "typescript": "*",
+        "@types/bcrypt": "*",
+        "@types/jsonwebtoken": "*"
+    },
+    "pnpm": {
+        "peerDependencyRules": {
+            "ignoreMissing": [
+                "zod"
+            ]
+        }
+    }
+}

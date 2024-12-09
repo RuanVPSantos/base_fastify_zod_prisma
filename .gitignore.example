@@ -1,0 +1,30 @@
+# Ignore node_modules (instalados localmente)
+node_modules/
+
+# Ignore dependências do pnpm
+.pnpm/
+
+# Ignore arquivos de build
+dist/
+
+# Ignore arquivos de cache do TypeScript
+*.tsbuildinfo
+
+# Ignore arquivos de configuração locais
+.env
+.env.local
+.env.*.local
+
+# Ignore arquivos específicos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignore arquivos de logs
+logs/
+*.log
+
+# Ignore pastas de testes
+test/
+tests/
+
+# Ignore arquivos gerados por editores de código

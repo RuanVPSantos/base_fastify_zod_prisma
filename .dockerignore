@@ -1,0 +1,35 @@
+# Ignore node_modules (instalados dentro do container)
+node_modules/
+
+# Ignore arquivos de configuração do pnpm
+.pnpm/
+
+# Ignore o diretório de build
+dist/
+
+# Ignore o diretório de cache do TypeScript
+*.tsbuildinfo
+
+# Ignore arquivos de configuração locais
+.env
+.env.local
+.env.*.local
+
+# Ignore diretórios temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Ignore pastas de logs
+logs/
+*.log
+
+# Ignore arquivos e pastas de testes
+test/
+tests/
+
+# Ignore a pasta de dependências do pnpm
+pnpm-lock.yaml
+
+# Ignore outros arquivos do sistema
+.vscode/
+.idea/
