@@ -13,6 +13,9 @@ RUN npm install -g pnpm
 # Install the project dependencies
 RUN pnpm install
 
+# Generate Prisma Client
+RUN pnpm prisma generate
+
 # Copy the rest of the project files
 COPY . .
 
